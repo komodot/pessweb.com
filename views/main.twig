@@ -1,0 +1,75 @@
+{% extends "base.twig" %}
+{% block body %}
+<div id="container">
+    <div id="main">
+        <div id="Logotipo"><a href="index.asp"><img src="images/generales/img_logohome.gif" alt="PESS" width="510" height="59" border="0" /></a></div>
+    </div>
+</div>
+<div id="header">
+    {{ render('/navmenu/{section}') }}
+    <div class="fRight"><a href="index_e.asp">English</a> ></div> 
+</div>
+{% block header %}
+	<div id="containerStage">
+	    <div id="mainStage">
+	        <div id="layerID">
+	            <div id="StageTextos-home">
+	                <h1>Power Engineering Services &amp; Solutions</h1>
+	                <p>Servicios de campo e ingeniería especializados para la industria de generación eléctrica.</br>
+	                PESS cuenta con personal altamente especializado en la industria, ofreciendo servicios en diversas especialidades como mecánica, eléctrica y control para el diseño, mantenimiento, instalación y repotenciación de proyectos generadores de energía.
+	                </p>
+	            </div>
+	        </div>
+		    <div id="homePic">
+		        <script type="text/javascript">
+					//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+					new fadeshow(fadeimages, 295, 313, 0, 80000, 1, "R")
+		        </script>
+		    </div>
+	    </div>
+	</div>
+{% endblock %}
+{% block content %} 
+	<div id="containerContenidoHome">
+	    <div id="mainContenidoHome">
+	        <div id="contentContenidoHome">
+	            <div class="colIzq">
+	                {% block maincontent %}
+		                <div class="plinea">Destacados</div>
+		                <div class="ColInterna"><img src="images/img_home_wsPess01.jpg" alt="..." width="190" height="53" />
+		                    <h3><a href="boroscopias.asp">Boroscop&iacute;as</a></h3>
+		                    Conoce tu maquinaria por medio de inspecci&oacute;n interna. Evita paros forzados o de emergencia.
+		                    <div class="learnmore"><a href="boroscopias.asp">Ver más</a> &raquo;</div>
+		                </div>
+		                <div class="ColInterna"><img src="images/img_home_wsPess02.jpg" alt="..." width="190" height="53" />
+		                    <h3><a href="vibraciones.asp">Vibraciones</a><a href="#"></a></h3>
+		                    PESS cuenta con ingenieros especialistas en vibraciones de turbomaquinaria, as&iacute; como instrumentaci&oacute;n de campo de alta precisi&oacute;n. PESS diagnosticar&aacute; potenciales problemas de tu turbomaquinaria.
+		                    <div class="learnmore"><a href="vibraciones.asp">Ver más</a> &raquo;</div>
+		                </div>
+		                <div class="ColInterna"><img src="images/img_home_wsPess03.jpg" alt="..." width="190" height="53" />
+		                    <h3><a href="mantenimientos.asp">Mantenimientos</a></h3>
+		                    <b>PESS</b> cuenta con alta experiencia en mantenimientos mayores en plantas de turbogeneración.</br>
+		                    Al personalizar los mantenimiento y contar con procedimientos de seguridad, equipo necesario y personal especializado, <b>PESS</b> es reconocido dentro de la industria por brindar a sus clientes las soluciones más útiles y productivas en el mercado. 
+		                    <div class="learnmore"><a href="mantenimientos.asp">Ver m&aacute;s</a> &raquo;</div>
+		                </div>
+	                {% endblock %}
+	            </div>
+	            <div class="colDer">
+	                {% block relatedcontent %}
+	                    {{ render('/news') }}
+	                {% endblock %}
+	            </div>
+	        </div>
+	        <div class="clearfloat"></div>
+	    </div>
+	</div>
+{% endblock %}
+<div class="clearfloat"></div>
+<div id="ContainerFooter">
+    {% block footer %}
+	    <div id="mainFooter">
+	        <div id="layerID3"> &copy; 2009 - Power Engineering Services and Solutions, S.A. de C.V. Todos los derechos reservados.</div>
+	    </div>
+    {% endblock %}
+</div>
+{% endblock %}

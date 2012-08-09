@@ -7,10 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Twig_' => $vendorDir . '/twig/twig/lib/',
+    'Symfony\\Component\\Yaml' => $vendorDir . '/symfony/yaml/',
+    'Symfony\\Component\\Translation' => $vendorDir . '/symfony/translation/',
     'Symfony\\Component\\Routing' => $vendorDir . '/symfony/routing/',
     'Symfony\\Component\\HttpKernel' => $vendorDir . '/symfony/http-kernel/',
     'Symfony\\Component\\HttpFoundation' => $vendorDir . '/symfony/http-foundation/',
     'Symfony\\Component\\EventDispatcher' => $vendorDir . '/symfony/event-dispatcher/',
+    'Symfony\\Component\\Config' => $vendorDir . '/symfony/config/',
     'Symfony\\Bridge\\Twig' => $vendorDir . '/symfony/twig-bridge/',
     'Silex' => $vendorDir . '/silex/silex/src/',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs',
