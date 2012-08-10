@@ -1,0 +1,294 @@
+@charset "ISO-8859-1";
+#OtrosServicios {
+	margin: 0px 0px 10px;
+	padding: 0px 0px 10px 0px;
+	font-size: 12px;
+	color: #333333;
+}
+#OtrosServicios ul{
+	margin: 0px;
+	padding: 0px;
+}
+#OtrosServicios li{
+	background: url(../images/icono/ico_pessnav.png) no-repeat 6px 6px;
+	margin: 0px;
+	padding: 0px;
+	color: #496893;
+	font-weight: bold;
+	list-style-type: none;
+	border-top: 1px dotted #CCCCCC;
+}
+#OtrosServicios li a {
+	list-style: none;
+	display: block;
+	padding-right: 7px;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+	margin: 0px;
+}
+#OtrosServicios li a:hover{
+	color: #06c;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+#OtrosServicios li .seleccionado{
+	color: #333;
+}
+
+#OtrosServicios div img{
+	vertical-align: middle;
+}
+
+/*#TopContacto h1 {
+	font-size: 24px;
+	color: #496893;
+	padding: 0px;
+	margin: 0px;
+}*/
+p {
+	line-height: 1.5em;
+	margin: 5px 0 15px 0;
+}
+H1 {
+	font-size: 21px;
+	color: #496893;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+H2 {
+	font-size: 18px;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+H3 {
+	font-size: 14px;
+	margin: 10px 0 5px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.colDer H1 {
+	font-size: 1.25em;
+	color: #666666;
+	margin: 0px 0px 0px 0px;
+}
+.colDer H2 {
+	padding:5px 0 2px 0px;
+	font-size: 14px;
+	color: #003E76;
+	margin: 0px;
+	line-height: 1.35em;
+}
+.colDer H3 {
+	font-size: 11px;
+	color: #333333;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px 0px 6px 0px;
+}
+
+.date {
+	font-size: 11px;
+	color: #666;
+	font-style: normal;
+	font-weight: normal;
+	margin: 10px 0px 0px 0px;
+}
+
+
+
+.balazo {
+	font-size: 16px;
+	padding-top: 0px;
+	margin: 0px 0px 15px 0px;
+	padding-bottom: 0px;
+
+}
+.logo-turbologias {
+	font-size: 16px;
+	padding-top: 0px;
+	margin: 0px 8px 0px 0px;
+	padding-bottom: 0px;
+	float: left;
+}
+
+#num-turbologias {
+	font-size: 16px;
+	padding-top: 0px;
+	margin: 20px 0px 0px;
+	padding-bottom: 0px;
+	border-top: 8px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+#num-turbologias img {
+	padding: 0px;
+	margin: 20px 0px;
+	border: 1px solid #ddd;
+	float: left;
+}
+
+#num-turbologias .descripcion {
+	padding: 0px;
+	margin: 22px 0px 30px 230px;
+}
+#num-turbologias .descripcion p {
+	font-size: .8em;
+	color: #666;
+	margin-top: 0px;
+}
+
+#num-turbologias .descripcion h1 {
+	font-size: 1.45em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0px 0px 8px 0px;
+	padding: 0px;
+}
+
+#num-turbologias .descripcion h2 {
+	font-size: .95em;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#num-turbologias .descripcion ul {
+	font-size: .9em;
+	margin-bottom: 0px;
+}
+
+#num-turbologias #download {
+	margin-bottom: 0px;
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	margin-top: 8px;
+	margin-right: auto;
+	width: 200px;
+	height: 45px;
+}
+
+#num-turbologias #download span {
+	float: left;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#num-turbologias #download h3 {
+	float: left;
+	margin: 7px 0px 0px 8px;
+	padding: 0px;
+	font-size: 1em;
+}
+
+#num-turbologias #download img {
+	border: 0;
+	padding: 0px;
+	margin: 0px;
+}
+#num-turbologias #download a {
+	display: block;
+	padding: 6px 10px 0px 14px;
+}
+#num-turbologias #download:hover {
+	background: #E6EFF8;
+	border: 1px solid #ddd;
+}
+
+.ContenidoGeneral H1 {
+	font-size: 22px;
+	font-weight: bold;
+	font-weight: normal;
+	color: #444;
+	padding: 0;
+	margin: 20px 0 15px 0;
+}
+.ContenidoGeneral H2 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #2F5383;
+	padding: 0;
+	margin: 10px 0 3px 0;
+}
+.ContenidoGeneral {
+	font-size: 13px;
+}
+.ContenidoGeneral ul {
+	padding: 0 0 10px 0;
+	margin: 5px 0 10px 30px;
+}
+.ContenidoGeneral li {
+	padding-top: 5px;
+	margin: 0px;
+	padding-bottom: 0px;
+	line-height: 1.4em;
+}
+.form_wrapper{
+	font-size: 12px;
+	color: #444;
+	margin-top: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+form ul{
+	list-style-type: none;
+	padding: 8px 0;
+	margin: 0;
+}
+form ul li{
+	list-style-type: none;
+	padding: 3px 0;
+	margin: 0;
+	line-height: 25px;
+}
+form label {
+	display: block;
+	width: 75px;
+	text-align: right;
+	float: left;
+	font-weight: bold;
+	padding-right: 8px;
+}
+form .text_field{
+	width: 290px;
+	border: 1px solid #d3d3c9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 3px;
+}
+form .select_field {
+	width: 138px;
+}
+form ul li.submit {
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 83px;
+}
+.boton {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #2F5383;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	padding-left: 4px;
+	border: 1px outset #AAA;
+}
+.iframe-contacto {
+	width: 900px;
+	height: 360px;
+}

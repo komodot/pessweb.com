@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	color: #222;
+	font: 12px/1.4 em Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+#leftframe ul{
+	margin:3px;
+}
+a {
+	color:#005186;
+	text-decoration:none;
+
+}	
+a:hover{
+	color:#06c;
+}	
+
+.panel_example{
+	width:112px;
+	background-image: url(../images/generales/btn_contactoslide.gif);
+	font-size: 10px;
+	height: 33px;
+	padding-top: 1px;
+	padding-left: 35px;
+	letter-spacing: 0.1em;
+	margin-left: 750px;
+	text-align: left;
+	display: block;
+	}
+
+div.box ul {
+	list-style-type:disc;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:10px;
+	
+}
+div.box form p{
+	padding:5px;
+}
+.learnmore {
+	color: #F90;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+ #layer {
+	position: relative;
+	width: 455px;
+	z-index: 3;
+	left: 0px;
+	top: 35px;
+	overflow: visible;
+    } 
+	
+    #layer2 {
+	position: relative;
+	overflow: visible;
+	top: -300;
+    } 
+#iframe-sidebar {
+	width: 190px;
+	height: 210px;
+} 

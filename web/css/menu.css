@@ -1,0 +1,41 @@
+UNKNOWN {
+        FONT-SIZE: small
+}
+#navheader {
+	FONT-SIZE: 13px;
+	FLOAT: left;
+	WIDTH: 100%;
+	LINE-HEIGHT: normal;
+	margin-left: 0px;
+}
+#navheader UL {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; LIST-STYLE-TYPE: none;
+}
+#navheader LI {
+        PADDING-RIGHT: 1px; PADDING-LEFT: 9px; BACKGROUND: url(../images/navegacion/left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+}
+#navheader A {
+	PADDING-RIGHT: 15px;
+	DISPLAY: block;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: bold;
+	BACKGROUND: url(../images/navegacion/right.gif) no-repeat right top;
+	FLOAT: left;
+	PADDING-BOTTOM: 4px;
+	COLOR: #005186;
+	PADDING-TOP: 5px;
+	TEXT-DECORATION: none;
+}
+#navheader A {
+        FLOAT: none;
+}
+#navheader A:hover {
+	COLOR: #06c;
+	BACKGROUND-IMAGE: url(../images/navegacion/right_hover.gif);
+}
+#navheader #current {
+        BACKGROUND-IMAGE: url(../images/navegacion/left_on.gif);
+}
+#navheader #current A {
+        BACKGROUND-IMAGE: url(../images/navegacion/right_on.gif); PADDING-BOTTOM: 5px; COLOR: #fff;
+}

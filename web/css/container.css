@@ -1,0 +1,360 @@
+@charset "ISO-8859-1";
+.bglinea{
+	}	
+.colIzq{
+	float:left;
+	width:675px;
+	padding:0px;
+	border-right: 1px solid #ddd;
+	}
+.colDer{
+	width:190px;
+	padding:0 0 0 25px;
+	display: block;
+	font-size: 11px;
+	float: left;
+}
+.colDerInt {
+	width:190px;
+	padding:0 0 0 25px;
+	display: block;
+	font-size: 11px;
+	float: left;
+}
+.colDerInt h2 {
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.ColInterna {
+	width: 200px;
+	float: left;
+	margin-right: 22px;
+}
+.plinea{
+	padding:0 0 22px 0px;
+	color: #666666;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	}
+.fLeft {
+	float: left;
+}
+.fRight {
+	float: right;
+	z-index: 100;
+	color:#FF6600;
+	font-weight: bold;
+	padding-top: 14px;
+}
+.fRight em {
+	font-size: 12px;
+	font-style:normal;
+	font-weight: bold;
+	padding-top: 14px;
+}
+#titSub {
+	float: left;
+	padding-top: 18px;
+	margin-left: -15px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}
+.clearfix {display: block;}
+#nav{
+	float:left;
+	padding: 0px;
+	margin-top:0px;
+	width: 540px;
+	}
+#nav img{
+	margin-right:0px;
+	}	
+#containerTop {
+	background:0 0 repeat-x;
+	background-image: url(../images/generales/img_slidecontacto.gif);
+}
+#mainTop {
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url(../images/generales/img_slidecontacto.gif);
+}
+#header {
+	width:900px;
+	margin:0 auto;
+	}
+#container{
+	}
+
+
+#main {
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+#containercontacto {
+	background:0 0 repeat-x;
+	background-image: url(../images/generales/bkg_contactoslide.gif);
+	display: block;
+}
+#maincontacto {
+	margin: 0 auto;
+	background-image: url(../images/generales/bkg_contactoslide.gif);
+	width: 900px;
+}
+#TopContacto {
+	padding: 0px;
+	margin: 15px 15px 10px 0px;
+	width: 220px;
+	display: block;
+	float: left;
+}
+#TopContacto2 {
+	padding: 0px;
+	width: 410px;
+	margin: 10px 20px 10px 0px;
+	display: block;
+	float: left;
+}
+#TopContactoRight {
+	padding: 0px;
+	margin: 15px 15px 10px 0px;
+	width: 220px;
+	display: block;
+	float: left;
+	font-size: 11px;
+	line-height: 15px;
+}
+#TopContactoRight h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2F5383;
+	font-size: 13px;
+	margin: 2px 0px -5px;
+	padding: 0px;
+}
+#TopContactoRight strong {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 11px;
+	margin: 0px 0px 0px;
+	padding: 0px;
+}
+
+
+#content {
+	display: block;
+	clear: both;
+	padding:0px 10px 0px 0px;
+	}
+#mainStage {
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 240px;
+}
+#containerStage {
+	background-image: url(../images/generales/bkg_home_wsPess.gif);
+	clear:both;
+}
+#Logotipo {
+	padding-bottom: 22px;
+	margin-left: 0px;
+}
+#StageTextos {
+	color: #FFFFFF;
+	padding-top: 0px;
+	width: 500px;
+	margin: 18px 0px 0px 15px;
+	line-height: 2em;
+}
+#StageTextos h1 {
+	color: #FFFFFF;
+}
+#StageTextos-2 {
+	color: #FFFFFF;
+	padding-top: 0px;
+	width: 500px;
+	margin: 8px 0px 0px 15px;
+	line-height: 2em;
+}
+#StageTextos-2 h1 {
+	color: #FFFFFF;
+}
+#StageTextos-home {
+	color: #FFFFFF;
+	padding-top: 20px;
+	width: 500px;
+	margin-top: 25px;
+}
+#StageTextos-home h1 {
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+#StageTextosLargos {
+	color: #FFFFFF;
+	padding: 14px;
+	width: 580px;
+	letter-spacing: -1px;
+}
+#layerID {
+	width: 500px;
+	float: left;
+	display: inherit;
+	position: static;
+}
+#homePic {
+	/*width: 10px;
+	height: 10px;*/
+	margin-left:35px;
+	float: left;
+	margin-top: -73px;
+	z-index: 0;
+}
+#intPic {
+	/*width: 10px;
+	height: 10px;*/
+	margin-left:15px;
+	float: left;
+	margin-top: -65px;
+	z-index: 0;
+}
+#intPicFlat {
+	/*width: 10px;
+	height: 10px;*/
+	margin-left:15px;
+	float: left;
+	margin-top: -65px;
+	z-index: 0;
+}
+.m20{
+	margin-right:20px;
+	}
+#mainContenidoHome {
+	margin: 0 auto;
+	width: 900px;
+	text-align: left;
+	display: block;
+}
+#containerContenidoHome {
+	padding-top: 25px;
+	background: url(../images/generales/bg_containercont.jpg) repeat-x;
+	padding-bottom: 20px;
+}
+#contentContenidoHome {
+	padding:0px 0px 10px 0px;
+	display: block;
+	float: left;
+}
+#mainFooter {
+	width: 900px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0 auto;
+	height: 35px;
+	text-align: center;
+	padding-top: 20px;
+}
+#ContainerFooter {
+	clear: left;
+	background-image: url(../images/generales/bkg_footer.gif);
+	height: 50px;
+}
+.plinea2 {
+	padding:0px 0px 22px 0px;
+	color: #666666;
+}
+.SeparaBorrar {
+	width:900px;
+	padding:0 0px 0 0;
+}
+#layerID3 {	/*width: 10px;
+	height: 10px;*/
+	font-size: .9em;
+	color: #555;
+	height: 20px;
+}
+#mainStageContenido2 {
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 100px;
+}
+#containerStageContenido2 {
+	background-image: url(../images/generales/bkg_home_wsPess2.gif);
+	clear:both;
+}
+.colDerNews-cont {
+	padding: 20px 0px 5px 0px;
+	margin-top: 15px;
+	border-top: 1px solid #CCCCCC;
+}
+.colDerNews {
+	padding: 0px;
+}
+.colDerNews h2{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	line-height: 1.2em;
+	font-size: 1.35em;
+}
+.colDerNews p{
+font-size: 11px;
+margin-top: 6px;
+}
+.ContenidoGeneral {
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+.IntroServicios {
+	padding-right: 120px;
+	padding-bottom: 20px;
+	background: url(../images/generales/senalador.gif) no-repeat 560px top;
+	height: 620px;
+}
+.IntroServicios H1 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	margin-bottom: 15px;
+		line-height: 1.5em;
+}
+#cont_red {
+	padding: 5px 20px 20px;
+	background: #ecf0f4 url(../images/bot_cont_red.png) no-repeat bottom;
+	width: 610px;
+}
+#cont_red h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.desc_foto {
+	font-size: 11px;
+	font-weight: bold;
+	color: #444;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}

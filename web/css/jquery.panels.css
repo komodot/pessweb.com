@@ -1,0 +1,30 @@
+/* CSS Document */
+.panel{
+	height:32px;
+	padding-top:0px;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+.panel a{
+	text-decoration:none;
+	color:#496893;
+}
+ .panel-up{
+	background-image: url(../images/generales/btn_dw.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 65px 1px;
+	padding-top: 2px;
+ }
+.panel-down{
+	background-image: url(../images/generales/btn_up.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 65px 0px;
+}
+.panel-target{
+	padding:5px;
+}
+.panel-closed{
+	display:none;
+}
